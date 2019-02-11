@@ -73,8 +73,7 @@ module.exports = {
       // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     // },
 
-    ropsten: {
-      host: "localhost",
+    rinkeby: {
       provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/${infuraKey}`),
       network_id:4, 
       gas : 6700000, 
